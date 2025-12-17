@@ -7,7 +7,7 @@ const DeleteAccount = () => {
   const requiredInfo = [
     "Họ tên chủ tài khoản",
     "Số CMND",
-    "Số dư tài khoản MoMo",
+    "Số dư tài khoản",
     "Tài khoản ngân hàng đang liên kết (nếu có)",
     "Email",
     "Địa chỉ",
@@ -28,7 +28,7 @@ const DeleteAccount = () => {
       {/* Content */}
       <main className="container mx-auto px-6 py-12 max-w-3xl">
         <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-8">
-          Làm sao để hủy tài khoản MoMo?
+          Làm sao để hủy tài khoản?
         </h1>
 
         <Card className="mb-8">
@@ -39,13 +39,13 @@ const DeleteAccount = () => {
               </div>
               <div>
                 <p className="text-muted-foreground mb-2">
-                  Khi cần hủy tài khoản MoMo, bạn vui lòng liên hệ với bộ phận CSKH qua số:
+                  Khi cần hủy tài khoản, bạn vui lòng liên hệ với bộ phận CSKH qua số:
                 </p>
                 <a 
-                  href="tel:19005454 41" 
+                  href="tel:090 3178539" 
                   className="text-2xl font-bold text-primary hover:underline"
                 >
-                  1900 54 54 41
+                  090 3178539
                 </a>
               </div>
             </div>
@@ -68,7 +68,7 @@ const DeleteAccount = () => {
             </div>
 
             <p className="text-muted-foreground">
-              Sau khi nhận được thông tin từ bạn, MoMo sẽ chủ động xác minh và hỗ trợ hủy tài khoản.
+              Sau khi nhận được thông tin từ bạn, chúng tôi sẽ chủ động xác minh và hỗ trợ hủy tài khoản.
             </p>
           </CardContent>
         </Card>
@@ -79,13 +79,13 @@ const DeleteAccount = () => {
             <strong className="block mb-2">Lưu ý quan trọng:</strong>
             <ul className="list-disc list-inside space-y-2 text-muted-foreground">
               <li>
-                Trước khi gửi thông tin yêu cầu hủy tài khoản, vui lòng hủy liên kết giữa tài khoản MoMo và tài khoản ngân hàng.
+                Trước khi gửi thông tin yêu cầu hủy tài khoản, vui lòng hủy liên kết giữa tài khoản và tài khoản ngân hàng.
               </li>
               <li>
-                Trong trường hợp tài khoản MoMo của bạn vẫn còn số dư, khi MoMo tiến hành hủy tài khoản, <strong className="text-destructive">số dư trong tài khoản sẽ bị mất</strong>.
+                Trong trường hợp tài khoản của bạn vẫn còn số dư, khi chúng tôi tiến hành hủy tài khoản, <strong className="text-destructive">số dư trong tài khoản sẽ bị mất</strong>.
               </li>
               <li>
-                <strong className="text-destructive">Tài khoản MoMo đã hủy sẽ không thể khôi phục lại.</strong>
+                <strong className="text-destructive">Tài khoản đã hủy sẽ không thể khôi phục lại.</strong>
               </li>
             </ul>
           </AlertDescription>
