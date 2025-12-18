@@ -15,7 +15,7 @@ const features = [
   },
   {
     icon: TrendingUp,
-    title: "Quản lý dòng tiền thông minh",
+    title: "Dòng tiền thông minh",
     description: "Theo dõi lịch sử nạp/rút chi tiết. Báo cáo chi tiêu hàng ngày, hàng tuần. Kiểm soát tài chính dễ dàng.",
     highlight: "Minh bạch",
   },

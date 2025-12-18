@@ -59,7 +59,7 @@ const PartnersSection = () => {
 
           {/* Merchant Card */}
           <Card className="bg-card border-border overflow-hidden">
-            <div className="bg-gradient-to-r from-chart-1 to-primary p-6">
+            <div className="bg-gradient-to-r from-chart-2 to-chart-3 p-6">
               <div className="flex items-center gap-4">
                 <div className="w-14 h-14 bg-primary-foreground/20 rounded-xl flex items-center justify-center">
                   <Building2 className="w-7 h-7 text-primary-foreground" />
