@@ -99,11 +99,11 @@ const FooterSection = () => {
                 </li>
                 <li className="flex items-center gap-2">
                   <Mail className="w-4 h-4" />
-                  <span>support@skygate.vn</span>
+                  <span>support@sky-gate.vn</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <MapPin className="w-4 h-4 mt-0.5" />
-                  <span>Tầng 10, Tòa nhà ABC, Quận 1, TP.HCM</span>
+                  <span>85 Cách Mạng Tháng Tám, Phường Bến Thành, Quận 1, Thành phố Hồ Chí Minh</span>
                 </li>
               </ul>
             </div>

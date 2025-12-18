@@ -48,7 +48,7 @@ const HowItWorksSection = () => {
                   <div className="w-20 h-20 bg-primary rounded-2xl flex items-center justify-center mx-auto group-hover:scale-110 transition-transform duration-300 shadow-lg">
                     <item.icon className="w-10 h-10 text-primary-foreground" />
                   </div>
-                  <span className="absolute -top-3 -right-3 w-8 h-8 bg-chart-1 text-secondary rounded-full flex items-center justify-center text-sm font-bold">
+                  <span className="absolute -top-3 -right-3 w-8 h-8 bg-primary text-primary-foreground rounded-full flex items-center justify-center text-sm font-bold">
                     {item.step}
                   </span>
                 </div>
