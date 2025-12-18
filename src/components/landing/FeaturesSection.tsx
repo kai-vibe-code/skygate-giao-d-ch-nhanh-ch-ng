@@ -54,7 +54,7 @@ const FeaturesSection = () => {
                   <div className="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center group-hover:bg-primary group-hover:scale-110 transition-all duration-300">
                     <feature.icon className="w-8 h-8 text-primary group-hover:text-primary-foreground transition-colors" />
                   </div>
-                  <span className="absolute -top-2 -right-2 bg-chart-1 text-secondary text-xs font-bold px-2 py-1 rounded-full">
+                  <span className="absolute -top-2 -right-2 bg-primary text-primary-foreground text-xs font-bold px-2 py-1 rounded-full">
                     {feature.highlight}
                   </span>
                 </div>
