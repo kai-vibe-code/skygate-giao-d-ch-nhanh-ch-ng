@@ -95,11 +95,11 @@ const FooterSection = () => {
               <ul className="space-y-3 text-sm text-secondary-foreground/70">
                 <li className="flex items-center gap-2">
                   <Phone className="w-4 h-4" />
-                  <span>1900 xxxx xx</span>
+                  <span>0768 6666 22</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <Mail className="w-4 h-4" />
-                  <span>support@sky-gate.vn</span>
+                  <span>contact@sky-gate.vn</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <MapPin className="w-4 h-4 mt-0.5" />
@@ -110,7 +110,7 @@ const FooterSection = () => {
           </div>
 
           <div className="border-t border-secondary-foreground/10 pt-8 text-center text-sm text-secondary-foreground/60">
-            <p>© 2024 SkyGate. Giữ bản quyền. Công ty TNHH SkyGate Việt Nam.</p>
+            <p>© 2025 SkyGate. Giữ bản quyền. Công ty TNHH Công Nghệ Sky Tech Việt Nam.</p>
           </div>
         </div>
       </footer>
