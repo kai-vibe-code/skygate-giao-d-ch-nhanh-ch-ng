@@ -50,11 +50,7 @@ const PolicyPage = () => {
               <p className="text-muted-foreground">Chúng tôi có thể thu thập các loại thông tin sau:</p>
               <ul className="list-disc list-inside text-muted-foreground space-y-2 ml-4">
                 <li>Thông tin cá nhân: Họ tên, số điện thoại, email, CCCD/CMND</li>
-                <li>Thông tin tài khoản ngân hàng liên kết</li>
-                <li>Lịch sử giao dịch và thanh toán nhiên liệu</li>
-                <li>Thông tin phương tiện (biển số xe, loại xe)</li>
                 <li>Vị trí khi sử dụng dịch vụ tại trạm xăng</li>
-                <li>Thông tin thiết bị và dữ liệu sử dụng ứng dụng</li>
               </ul>
             </div>
           </section>
